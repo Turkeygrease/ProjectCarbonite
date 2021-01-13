@@ -33,37 +33,43 @@ krayt_dragon_ancient = Creature:new {
 			groups = {
 				{group = "krayt_tissue_rare", chance = 10000000}
 			},
-			lootChance = 1500000
+			lootChance = 3500000
 		},
 		{
 			groups = {
 				{group = "krayt_tissue_uncommon", chance = 10000000}
 			},
-			lootChance = 2500000
+			lootChance = 4500000
 		},
 		{
 			groups = {
 				{group = "krayt_tissue_common", chance = 10000000}
 			},
-			lootChance = 3500000
+			lootChance = 4500000
 		},
 		{
 			groups = {
 				{group = "krayt_dragon_common", chance = 10000000}
 			},
-			lootChance = 2500000
+			lootChance = 4500000
 		},
 		{
 			groups = {
 				{group = "krayt_dragon_common", chance = 10000000}
 			},
-			lootChance = 2500000
+			lootChance = 4500000
 		},
 		{
 			groups = {
 				{group = "krayt_pearls", chance = 10000000}
 			},
-			lootChance = 1500000
+			lootChance = 3500000
+		},
+		{
+			groups = {
+				{group = "krayt_pearls", chance = 10000000}
+			},
+			lootChance = 3500000
 		},
 		{
 			groups = {
@@ -73,7 +79,7 @@ krayt_dragon_ancient = Creature:new {
 		},
 		{
 			groups = {
-				{group = "weapons_all", chance = 10000000}
+				{group = "high_end_weapons_all", chance = 10000000}
 			},
 			lootChance = 5500000
 		},
@@ -85,7 +91,7 @@ krayt_dragon_ancient = Creature:new {
 		},
 		{
 			groups = {
-				{group = "weapons_all", chance = 10000000}
+				{group = "high_end_weapons_all", chance = 10000000}
 			},
 			lootChance = 5500000
 		}

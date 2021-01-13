@@ -5,12 +5,12 @@ kunga_warrior = Creature:new {
 	socialGroup = "kunga_tribe",
 	faction = "kunga_tribe",
 	level = 70,
-	chanceHit = 0.7,
-	damageMin = 495,
-	damageMax = 700,
-	baseXp = 6655,
-	baseHAM = 12000,
-	baseHAMmax = 15000,
+	chanceHit = 1.05,
+	damageMin = 683,
+	damageMax = 1377,
+	baseXp = 960,
+	baseHAM = 9724,
+	baseHAMmax = 14241,
 	armor = 1,
 	resists = {25,45,-1,25,25,100,25,-1,-1},
 	meatType = "",
@@ -29,19 +29,27 @@ kunga_warrior = Creature:new {
 
 	templates = {
 		"object/mobile/dantari_male.iff",
-		"object/mobile/dantari_female.iff"},
+		"object/mobile/dantari_female.iff"
+	},
 	lootGroups = {
 		{
 			groups = {
-				{group = "junk", chance = 3500000},
-				{group = "loot_kit_parts", chance = 3000000},
-				{group = "armor_attachments", chance = 500000},
-				{group = "clothing_attachments", chance = 500000},
-				{group = "wearables_common", chance = 1000000},
-				{group = "wearables_uncommon", chance = 1000000},
-				{group = "power_crystals", chance = 500000}
-			}
-		}
+				{group = "color_crystals", chance = 10000000}
+			},
+			lootChance = 400000
+		},
+		{
+			groups = {
+				{group = "armor_attachments", chance = 10000000}
+			},
+			lootChance = 600000
+		},
+		{
+			groups = {
+				{group = "clothing_attachments", chance = 10000000}
+			},
+			lootChance = 600000
+		},
 	},
 	weapons = {"primitive_weapons"},
 	conversationTemplate = "",

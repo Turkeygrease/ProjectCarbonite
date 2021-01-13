@@ -51,8 +51,8 @@ object_tangible_powerup_weapon_melee_generic = object_tangible_powerup_weapon_sh
 
 	primary = {
 		{"idealRange", "Ideal Range", "cat_pup.pup_wpn_range_mid"},
-		{"healthAttackCost", "Balancing", "cat_pup.pup_wpn_attack_cost_health"},
-  		{"mindAttackCost", "Compensating", "cat_pup.pup_wpn_attack_cost_mind"},
+		-- {"healthAttackCost", "Balancing", "cat_pup.pup_wpn_attack_cost_health"},
+  		-- {"mindAttackCost", "Compensating", "cat_pup.pup_wpn_attack_cost_mind"},
 		{"pointBlankAccuracy", "Precision", "cat_pup.pup_wpn_range_attack_mod_zero"}
 	},
 
